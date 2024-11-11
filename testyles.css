@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+/* body , html{
+     overflow: hidden;
+} */
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* Navbar Settings*/
+ul{
+    list-style: none;
+}
+
+.active {
+    color:aquamarine;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 50px;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link li {
+    margin: 0 30px;
+}
+
+
+
+
+/* Background Image Settings */
+header {
+    width: 100vw;
+    height: 110vh;
+    background: url(/images/benjamin-child-7Cdw956mZ4w-unsplash.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+
+
+   /* Header Content(This includes the first body) */
+.header content{
+    margin-bottom: 100px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: beige;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Button Settings */
+.centerbtn{
+    text-align: center;
+}
+.ctn {
+    padding: 10px 15px; 
+    background: #fc036b;
+    border-radius: 50px;
+    color: white;
+}
+
+.ctn:hover {
+    color: wheat;
+    width: 100%;
+} 
+
+.menubtn{
+    position: relative;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+/* 1st Section Settings */
+section {
+    width: 80px;
+    margin: 80px;
+}
+
+.title {
+    text-align: center;
+    margin-left: 100%;
+    font-size: 4vmin;
+    color: #49497e;
+}
+
+
+img {
+    width: 40vw;
+    height: 50vh;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background: cyan;
+}
+
+/* .row .col1 img {
+    width: 80%;
+} */
+
+
+.row .col1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: auto 10px;
+    margin: auto 10px;
+}
+
+.row .col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: auto 10px;
+    margin: auto 10px;
+}
+
+.events .row {
+    margin-top: 50px;
+}
+
+h4 {
+    font-size: 3vmin;
+    color: #484872;
+    margin: 20px auto;
+}
+
+p {
+    color: #7c7c7c;
+    padding: 0px 40px;
+}
+
+.events .ctn {
+    margin-top: 30px;
+}
+
+
+
+/* 2nd Section of the Web */
+.Explore {
+    width: 100%;
+    height: 100vh;
+    background: url(/images/benjamin-voros-jv15x2Gs5F8-unsplash.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+} 
+
+.E1 {
+    width: 50%;
+    padding: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.E1 h3 {
+    font-size: 7vmin;
+}
+
+.E1 .line {
+    margin-bottom: 50px;
+}
+.E1 p {
+    font-size: 2vmin;
+    text-align: left;
+    margin-right: 20rem;
+    color: #fff;
+}
+
+.E1 .ctn {
+    margin-top: 40px;
+}
+
+
+
+/* Tours Section Settings */
+.tours {
+    width: 100%;
+    height: 100vh;
+} 
+.row {
+    background-color: aliceblue;
+}
+
+.tours .row .col {
+    width: 50%;
+} 
+.tours .Image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Image-gallery img {
+    width: 250px;
+    margin: 10px;
+}
+.content-col h1 {
+    font-size: 7vmin;
+    color: #484872;
+}
+
+.content-col .line{
+    margin-left: -1px;
+}
+
+.content-col p{
+    padding: 0;
+    margin: 30 auto;
+}
+.content-col .ctn {
+    margin-left: 100px;
+}
+
+.col-image {
+    display: flex;
+    flex-wrap: wrap;
+    flex: column;
+    padding: 10px 0; 
+} 
+
+
+
+/* Footer Settings */
+.footer {
+    width: 100%;
+    height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #484872;
+    text-align: center;
+}
+
+.footer {
+    color: whitesmoke;
+    margin: 20px auto;
+}
+
+
+
+  /* Mobile devices */
+@media only screen and (max-width:850px){
+   .navbar {
+      padding: 0;
+   }
+
+   .logo {
+       padding: absolute;
+       top: 30px;
+       left: 30px;
+   }
+
+   .nav-link {
+       flex-direction: column;
+       width: 100%;
+       height: 100vh;
+       justify-content: center;
+       background: #484872;
+       margin-top: -900px;
+   }
+  
+   .mobile-menu {
+    margin-top: 30px auto;
+   }
+
+   .nav-link li {
+       margin: 30px auto;
+       color: darkblue;
+   }
+
+   .header-content h2{
+    font-size: 3vmin;
+   }
+
+   .header-content h1{
+    font-size: 3vmin;
+   }
+}
